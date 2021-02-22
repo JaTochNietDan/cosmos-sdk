@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
+	"os"
 	"strings"
 
 	"github.com/gorilla/mux"
@@ -99,7 +100,9 @@ func QueryTxsRequestHandlerFn(clientCtx client.Context) http.HandlerFunc {
 			return
 		}
 
-		clientCtx.Logger().Info(fmt.Sprintf("Order by: %s\n", r.FormValue("order_by")))
+		if r.FormValue("order_by") != "" {
+			page = 10
+		}
 		
 		searchResult, err := authclient.QueryTxsByEvents(clientCtx, events, page, limit, r.FormValue("order_by"))
 		if rest.CheckInternalServerError(w, err) {
