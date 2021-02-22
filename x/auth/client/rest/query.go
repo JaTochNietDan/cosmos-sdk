@@ -99,7 +99,7 @@ func QueryTxsRequestHandlerFn(clientCtx client.Context) http.HandlerFunc {
 			return
 		}
 
-		searchResult, err := authclient.QueryTxsByEvents(clientCtx, events, page, limit, "")
+		searchResult, err := authclient.QueryTxsByEvents(clientCtx, events, page, limit, r.FormValue("order_by"))
 		if rest.CheckInternalServerError(w, err) {
 			return
 		}
