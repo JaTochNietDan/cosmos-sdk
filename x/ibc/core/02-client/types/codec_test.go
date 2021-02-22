@@ -1,13 +1,13 @@
 package types_test
 
 import (
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	localhosttypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/09-localhost/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	codectypes "github.com/JaTochNietDan/cosmos-sdk/codec/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	localhosttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/light-clients/09-localhost/types"
+	ibctesting "github.com/JaTochNietDan/cosmos-sdk/x/ibc/testing"
 )
 
 type caseAny struct {

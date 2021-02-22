@@ -11,12 +11,12 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	"github.com/JaTochNietDan/cosmos-sdk/client/tx"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth/legacy/legacytx"
 )
 
 // Codec defines the x/auth account codec to be used for use with the

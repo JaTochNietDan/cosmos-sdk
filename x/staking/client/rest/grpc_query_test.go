@@ -9,15 +9,15 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	stakingtestutil "github.com/cosmos/cosmos-sdk/x/staking/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/network"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	grpctypes "github.com/JaTochNietDan/cosmos-sdk/types/grpc"
+	"github.com/JaTochNietDan/cosmos-sdk/types/query"
+	"github.com/JaTochNietDan/cosmos-sdk/types/rest"
+	"github.com/JaTochNietDan/cosmos-sdk/x/staking/client/cli"
+	stakingtestutil "github.com/JaTochNietDan/cosmos-sdk/x/staking/client/testutil"
+	"github.com/JaTochNietDan/cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {

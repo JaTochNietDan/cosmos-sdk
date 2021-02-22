@@ -10,11 +10,11 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	"github.com/JaTochNietDan/cosmos-sdk/store"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/params/types"
 )
 
 type SubspaceTestSuite struct {

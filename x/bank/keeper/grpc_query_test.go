@@ -6,10 +6,10 @@ import (
 	gocontext "context"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/testdata"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/types/query"
+	"github.com/JaTochNietDan/cosmos-sdk/x/bank/types"
 )
 
 func (suite *IntegrationTestSuite) TestQueryBalance() {

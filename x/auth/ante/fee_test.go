@@ -1,11 +1,11 @@
 package ante_test
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/testdata"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth/ante"
 )
 
 func (suite *AnteTestSuite) TestEnsureMempoolFees() {

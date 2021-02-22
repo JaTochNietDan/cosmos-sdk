@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	bank "github.com/JaTochNietDan/cosmos-sdk/x/bank/types"
 )
 
 func TestBalanceValidate(t *testing.T) {

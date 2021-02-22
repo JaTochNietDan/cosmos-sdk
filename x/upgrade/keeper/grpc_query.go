@@ -3,9 +3,9 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/upgrade/types"
 )
 
 var _ types.QueryServer = Keeper{}

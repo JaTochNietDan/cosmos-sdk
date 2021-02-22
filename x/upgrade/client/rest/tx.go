@@ -4,17 +4,17 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/tx"
+	"github.com/JaTochNietDan/cosmos-sdk/client/tx"
 
 	"github.com/gorilla/mux"
 
-	govrest "github.com/cosmos/cosmos-sdk/x/gov/client/rest"
+	govrest "github.com/JaTochNietDan/cosmos-sdk/x/gov/client/rest"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/types/rest"
+	govtypes "github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/upgrade/types"
 )
 
 func registerTxHandlers(

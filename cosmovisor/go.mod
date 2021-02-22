@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/cosmovisor
+module github.com/JaTochNietDan/cosmos-sdk/cosmovisor
 
 go 1.14
 

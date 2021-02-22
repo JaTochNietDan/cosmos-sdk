@@ -15,18 +15,18 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	codectypes "github.com/JaTochNietDan/cosmos-sdk/codec/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/types/module"
+	simtypes "github.com/JaTochNietDan/cosmos-sdk/types/simulation"
+	govclient "github.com/JaTochNietDan/cosmos-sdk/x/gov/client"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/client/cli"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/client/rest"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/keeper"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/simulation"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
 )
 
 var (

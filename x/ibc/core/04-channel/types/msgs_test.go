@@ -9,15 +9,15 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	"github.com/JaTochNietDan/cosmos-sdk/store/iavl"
+	"github.com/JaTochNietDan/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/JaTochNietDan/cosmos-sdk/store/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/04-channel/types"
+	commitmenttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/exported"
 )
 
 const (

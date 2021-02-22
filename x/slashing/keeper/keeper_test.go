@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/testslashing"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/slashing/testslashing"
+	"github.com/JaTochNietDan/cosmos-sdk/x/staking"
+	"github.com/JaTochNietDan/cosmos-sdk/x/staking/teststaking"
+	stakingtypes "github.com/JaTochNietDan/cosmos-sdk/x/staking/types"
 )
 
 func TestUnJailNotBonded(t *testing.T) {

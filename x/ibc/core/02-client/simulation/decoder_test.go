@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/simulation"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	"github.com/JaTochNietDan/cosmos-sdk/types/kv"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/simulation"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	host "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/24-host"
+	ibctmtypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
 )
 
 func TestDecodeStore(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 // Implements Delegation interface

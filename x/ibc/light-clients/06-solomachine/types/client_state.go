@@ -5,15 +5,15 @@ import (
 
 	ics23 "github.com/confio/ics23/go"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	"github.com/JaTochNietDan/cosmos-sdk/types/tx/signing"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/24-host"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/exported"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

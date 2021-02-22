@@ -9,16 +9,16 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	cryptocodec "github.com/JaTochNietDan/cosmos-sdk/crypto/codec"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/JaTochNietDan/cosmos-sdk/crypto/keys/multisig"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/testdata"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	"github.com/JaTochNietDan/cosmos-sdk/types/tx/signing"
 )
 
 var (

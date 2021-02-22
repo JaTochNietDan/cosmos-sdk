@@ -7,16 +7,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clientutils "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/client/utils"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	ibcclient "github.com/cosmos/cosmos-sdk/x/ibc/core/client"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	clientutils "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/client/utils"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/03-connection/types"
+	commitmenttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/24-host"
+	ibcclient "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/client"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/exported"
 )
 
 // QueryConnection returns a connection end.

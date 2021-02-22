@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	store "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/baseapp"
+	store "github.com/JaTochNietDan/cosmos-sdk/store/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 // UpgradeStoreLoader is used to prepare baseapp with a fixed StoreLoader

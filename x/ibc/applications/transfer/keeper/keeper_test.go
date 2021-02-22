@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	"github.com/JaTochNietDan/cosmos-sdk/baseapp"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/applications/transfer/types"
+	ibctesting "github.com/JaTochNietDan/cosmos-sdk/x/ibc/testing"
 )
 
 type KeeperTestSuite struct {

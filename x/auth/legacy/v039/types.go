@@ -11,13 +11,13 @@ import (
 
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v034auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v034"
-	v038auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v038"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	"github.com/JaTochNietDan/cosmos-sdk/codec/legacy"
+	cryptocodec "github.com/JaTochNietDan/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	v034auth "github.com/JaTochNietDan/cosmos-sdk/x/auth/legacy/v034"
+	v038auth "github.com/JaTochNietDan/cosmos-sdk/x/auth/legacy/v038"
 )
 
 const (

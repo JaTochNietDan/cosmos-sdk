@@ -10,16 +10,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	"github.com/JaTochNietDan/cosmos-sdk/store/iavl"
+	"github.com/JaTochNietDan/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/JaTochNietDan/cosmos-sdk/store/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/03-connection/types"
+	commitmenttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/23-commitment/types"
+	ibctmtypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/JaTochNietDan/cosmos-sdk/x/ibc/testing"
 )
 
 var (

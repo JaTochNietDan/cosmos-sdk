@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	"github.com/JaTochNietDan/cosmos-sdk/codec/legacy"
+	codectypes "github.com/JaTochNietDan/cosmos-sdk/codec/types"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/testdata"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	txtypes "github.com/JaTochNietDan/cosmos-sdk/types/tx"
+	"github.com/JaTochNietDan/cosmos-sdk/types/tx/signing"
 )
 
 func TestTxBuilder(t *testing.T) {

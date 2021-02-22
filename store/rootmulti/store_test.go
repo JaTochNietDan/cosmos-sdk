@@ -16,11 +16,11 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"
 
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	sdkmaps "github.com/cosmos/cosmos-sdk/store/internal/maps"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	snapshottypes "github.com/JaTochNietDan/cosmos-sdk/snapshots/types"
+	"github.com/JaTochNietDan/cosmos-sdk/store/iavl"
+	sdkmaps "github.com/JaTochNietDan/cosmos-sdk/store/internal/maps"
+	"github.com/JaTochNietDan/cosmos-sdk/store/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
 )
 
 func TestStoreType(t *testing.T) {

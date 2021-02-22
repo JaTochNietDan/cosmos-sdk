@@ -1,11 +1,11 @@
 package client
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/keeper"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	govtypes "github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/keeper"
+	"github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
 )
 
 // NewClientUpdateProposalHandler defines the client update proposal handler

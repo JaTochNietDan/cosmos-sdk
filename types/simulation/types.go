@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/baseapp"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 type WeightedProposalContent interface {

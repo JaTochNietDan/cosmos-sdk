@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 type decCoinTestSuite struct {

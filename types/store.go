@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/JaTochNietDan/cosmos-sdk/store/types"
+	"github.com/JaTochNietDan/cosmos-sdk/types/kv"
 )
 
 type (

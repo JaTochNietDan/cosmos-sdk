@@ -6,12 +6,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/JaTochNietDan/cosmos-sdk/codec"
+	codectypes "github.com/JaTochNietDan/cosmos-sdk/codec/types"
+	gov "github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
+	clienttypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/02-client/types"
+	ibctmtypes "github.com/JaTochNietDan/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/upgrade/types"
 )
 
 type ProposalWrapper struct {

@@ -5,9 +5,9 @@ package v034
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/codec/legacy"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 const (

@@ -1,8 +1,8 @@
 package ante
 
 import (
-	"github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/JaTochNietDan/cosmos-sdk/types"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
 )
 
 // RejectFeeGranterDecorator is an AnteDecorator which rejects transactions which

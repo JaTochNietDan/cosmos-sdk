@@ -7,20 +7,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	govtestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/JaTochNietDan/cosmos-sdk/client/flags"
+	clitestutil "github.com/JaTochNietDan/cosmos-sdk/testutil/cli"
+	"github.com/JaTochNietDan/cosmos-sdk/testutil/network"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/client/cli"
+	govtestutil "github.com/JaTochNietDan/cosmos-sdk/x/gov/client/testutil"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
 )
 
 type IntegrationTestSuite struct {

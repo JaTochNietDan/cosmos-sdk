@@ -10,12 +10,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth"
+	authtypes "github.com/JaTochNietDan/cosmos-sdk/x/auth/types"
+	banktypes "github.com/JaTochNietDan/cosmos-sdk/x/bank/types"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
 )
 
 func TestImportExportQueues(t *testing.T) {

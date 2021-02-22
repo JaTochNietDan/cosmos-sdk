@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	kmultisig "github.com/JaTochNietDan/cosmos-sdk/crypto/keys/multisig"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
 )
 
 func TestBech32KeysOutput(t *testing.T) {

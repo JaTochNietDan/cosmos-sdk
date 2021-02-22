@@ -9,18 +9,18 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/version"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	"github.com/JaTochNietDan/cosmos-sdk/client/flags"
+	"github.com/JaTochNietDan/cosmos-sdk/client/tx"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/JaTochNietDan/cosmos-sdk/crypto/keys/multisig"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/types/multisig"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	signingtypes "github.com/JaTochNietDan/cosmos-sdk/types/tx/signing"
+	"github.com/JaTochNietDan/cosmos-sdk/version"
+	authclient "github.com/JaTochNietDan/cosmos-sdk/x/auth/client"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth/client/rest"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth/signing"
 )
 
 // GetSignCommand returns the sign command

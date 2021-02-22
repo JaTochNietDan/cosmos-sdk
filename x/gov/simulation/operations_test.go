@@ -10,13 +10,13 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	simappparams "github.com/JaTochNietDan/cosmos-sdk/simapp/params"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	simtypes "github.com/JaTochNietDan/cosmos-sdk/types/simulation"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/simulation"
+	"github.com/JaTochNietDan/cosmos-sdk/x/gov/types"
+	minttypes "github.com/JaTochNietDan/cosmos-sdk/x/mint/types"
 )
 
 type MockWeightedProposalContent struct {

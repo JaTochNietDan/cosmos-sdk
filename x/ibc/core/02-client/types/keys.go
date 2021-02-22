@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
+	sdkerrors "github.com/JaTochNietDan/cosmos-sdk/types/errors"
+	host "github.com/JaTochNietDan/cosmos-sdk/x/ibc/core/24-host"
 )
 
 const (

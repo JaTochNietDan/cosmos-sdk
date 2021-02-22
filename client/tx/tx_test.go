@@ -6,17 +6,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/JaTochNietDan/cosmos-sdk/client"
+	"github.com/JaTochNietDan/cosmos-sdk/client/tx"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/hd"
+	"github.com/JaTochNietDan/cosmos-sdk/crypto/keyring"
+	cryptotypes "github.com/JaTochNietDan/cosmos-sdk/crypto/types"
+	"github.com/JaTochNietDan/cosmos-sdk/simapp"
+	sdk "github.com/JaTochNietDan/cosmos-sdk/types"
+	txtypes "github.com/JaTochNietDan/cosmos-sdk/types/tx"
+	signingtypes "github.com/JaTochNietDan/cosmos-sdk/types/tx/signing"
+	"github.com/JaTochNietDan/cosmos-sdk/x/auth/signing"
+	banktypes "github.com/JaTochNietDan/cosmos-sdk/x/bank/types"
 )
 
 func NewTestTxConfig() client.TxConfig {
